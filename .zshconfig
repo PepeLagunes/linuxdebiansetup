@@ -1,0 +1,13 @@
+
+export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
+
+alias cat='/usr/bin/batcat -p'
+alias c='clear'
+alias ls='eza --icons'
+alias l='eza --all --long'
+alias t='eza --tree'
+alias grep='rg'
+alias dr='mkdir'
+
+eval "$(starship init zsh)"
